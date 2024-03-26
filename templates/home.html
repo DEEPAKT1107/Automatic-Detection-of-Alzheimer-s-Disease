@@ -1,0 +1,157 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alzheimer's  Disease Prediction</title>
+    <link rel="icon" href="static\media\title logo.png">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    
+    <main role="main">
+
+      <section class="jumbotron p-3 p-md-5 text-white rounded bg-dark text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Alzheimer's  Disease Prediction</h1>
+          <p class="lead">Chronic lower respiratory diseases is a set of conditions that includes chronic obstructive pulmonary disease (COPD), emphysema, and chronic bronchitis.
+             Together, chronic lower respiratory diseases are a leading cause of death in the United States.</p>
+          <p>
+            <a href="https://www.niehs.nih.gov/health/topics/conditions/lung-disease#:~:text=Chronic%20lower%20respiratory%20diseases%20is,death%20in%20the%20United%20States." class="btn btn-primary my-2">Read More about the Disease</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">Machine Learning</strong>
+              <h3 class="mb-0">
+                <a class="text-dark">Image Processing</a>
+              </h3>
+              <div class="mb-1 text-muted">For Image Processing</div>
+              <p class="card-text mb-auto">Image processing is a method to perform some operations on an image, in order to get an enhanced image or to extract some useful information from it.</p>
+              <a href="https://www.simplilearn.com/image-processing-article">Continue reading</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-success" >Model & Algorithm</strong>
+              <h3 class="mb-0">
+                <a class="text-dark">Inception V3</a>
+              </h3>
+              <div class="mb-1 text-muted">Gradient Boosting Machine</div>
+              <p class="card-text mb-auto">A hybrid algorithm is an algorithm that combines two or more other algorithms that solve the same problem, either choosing one based on some characteristic of the data, or switching between them over the course of the algorithm.</p>
+              <a href="https://medium.com/@AnasBrital98/inception-v3-cnn-architecture-explained-691cfb7bba08">Continue reading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://cdn.icon-icons.com/icons2/2593/PNG/512/data_icon_154512.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Data-Set</h2>
+            <p>We have used the data set available in Kaggle - Alzheimer's Disease Prediction. After Classifying the data, Preprocessin and performed the Exploratory Data Analysis. This data set contains about 1338 records of data in various categories.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://www.edureka.co/blog/wp-content/uploads/2019/01/Classification-Random-Forest-Random-Forest-In-R-Edureka-2-381x300.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Algorithm</h2>
+            <p>Inception v3 is an image recognition model that has been shown to attain greater than 78.1% accuracy on the ImageNet dataset.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://cdn.pixabay.com/photo/2016/05/25/13/18/target-1414775_960_720.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Accuracy</h2>
+            <p>Inception v3 is an image recognition model that has been shown to attain greater than 78.1% accuracy on the ImageNet dataset. The model is the culmination of many ideas developed by multiple researchers over the years. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">How it will works</h2>
+            <p class="lead">This prediction will be used in healthcare Applications. As it was very important to predict weather the patient was having any chances of getting this Lung Disease. This project comprises with the deployement too. we can deploy this project y means of Python web servers available in the market.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">Conflicts & Modifications</h2>
+            <p class="lead">Since, we deployed our model in Flask - Framework. As, this was a simple classification and regression analysis. There might be some problems arises during the installationof Tensorflow & Python Versions. we must make sure of Installing the same versions. In order to avoid this, We must ensure to install the correct dependencies - before running this project.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">Future implementations</h2>
+            <p class="lead">Django - Frameowrk will be more suitable for the deployement at any case. At the same, adding the feature - Upload image and process the X-Ray image and predict for any chances of getting the disease.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+      <section class="jumbotron p-3 p-md-5 text-white rounded bg-dark text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Alzheimer's  Disease Prediction</h1>
+          <p class="lead">Alzheimer's disease is thought to be caused by the abnormal build-up of proteins in and around brain cells. One of the proteins involved is called amyloid, deposits of which form plaques around brain cells. 
+            The other protein is called tau, deposits of which form tangles within brain cells.</p>
+          <p>
+            <a href="{{ url_for('validate') }}" class="btn btn-primary my-2">Check out the Project</a>
+          </p>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
+
+{% endblock %}
